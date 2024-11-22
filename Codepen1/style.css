@@ -16,8 +16,8 @@ body{
     gap: 5px;
     place-items: center;
     grid-auto-rows: 100px;
-}
-& img{
+
+img{
     transition: clip-path 1s;
     width: 200px;
     aspect-ratio: 1;
@@ -28,7 +28,7 @@ body{
         grid-column: 2 / span 2;
         }
     }
-
+}
 img:hover{
     clip-path: path("M0,0 C0,0 200,0 200,0 200,0 200,100 200,100 200,100 200,200 200,200 200,200 100,200 100,200 100,200 100,200 0,200 0,200 0,100 0,100 0,100 0,100 0,100Z");
     z-index: 1;
